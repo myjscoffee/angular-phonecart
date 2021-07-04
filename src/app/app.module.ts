@@ -11,7 +11,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ShipppingComponent } from './shippping/shippping.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   imports: [
@@ -32,7 +32,7 @@ import { ShipppingComponent } from './shippping/shippping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShipppingComponent
+    ShippingComponent
   ],
   bootstrap: [AppComponent],
   providers: [CartService]
